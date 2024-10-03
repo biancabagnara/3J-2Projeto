@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Sofadi+One&display=swap');
+@import url('https://raw.githubusercontent.com/guilhermeonrails/api/main/dados-globais.json');
 
 :root{
-    --cor-de-fundo: #0e717c;
-    --cor-primaria: #FEECB3;
-    --cor-secundaria: #ED3EF7;
+    --cor-de-fundo: #36642b;
+    --cor-primaria: #ffffff;
+    --cor-secundaria: #000000;
     --fonte: "Sofadi One", sans-serif;
 }
 *{
