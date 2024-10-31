@@ -18,6 +18,8 @@ async function quantidadeDeUsuarios() {
             }
         }
     ]
+
+    
     const layout = {
         plot_bgcolor: getCSS('--cor-de-fundo'),
         paper_bgcolor: getCSS('--cor-de-fundo'),

@@ -7,7 +7,6 @@ async function visualizarDadosGlobais(){
     const totalPessoasMundo = dados.total_pessoas_mundo
     const totalPessoasConectadas = dados.total_pessoas_conectadas
     const tempoMedio = dados.tempo_medio
-    console.log(dados);
     const paragrafo = document.createElement('p');
     paragrafo.classList.add('graficos-texto');
     paragrafo.innerHTML = `Você sabia que o mundo tem <span>${totalPessoasMundo}</span>
