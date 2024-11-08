@@ -34,21 +34,17 @@ async function quantidadeDeUsuarios() {
         },
         xaxis: {
             tickfont: tickfont,
+            title: {
             text: 'Nome das redes sociais',
             font: {
-                color: getCSS('---cor-secundaria')
+            color: getCSS('--cor-secundaria')
             }
-        },
-        yaxis: {
-            tickfont: tickfont,
-            title: {
-                text: 'Milhões de usuários ativos',
-                font: {
-                    color: getCSS('--cor-secundaria')
-                }
+            },
+            font: {
+            color: getCSS('---cor-secundaria')
+            }
             }
         }
-    }
     const grafico = document.createElement('div');
     grafico.className = 'grafico';
     document.getElementById('graficos-container').appendChild(grafico);
